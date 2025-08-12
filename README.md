@@ -21,10 +21,9 @@ rm -rf ~/.config/nvim/.git
 ## Configurations
 
 ### Ctrl-s: keymap
+Face issue when editing and save the file forcing you to normal mode with this configuration we can ctrl+s without bring back to normal mode.
 
 ```sh
--- Save with Ctrl-s in any mode: enable save without bring back to normal mode
-
 -- step 1: goto 
 nvim ~/.config/nvim/lua/config/keymaps.lua
 
@@ -32,8 +31,10 @@ nvim ~/.config/nvim/lua/config/keymaps.lua
 vim.keymap.set({ "n", "v" }, "<C-s>", "<cmd>w<CR>", { desc = "Save file" })
 vim.keymap.set("i", "<C-s>", "<C-o>:w<CR>", { desc = "Save file" })
 
--- step 3: save and restart
+-- step 3: save 
 :source %
+-- step 4: restart
+:qall
 
 
 
