@@ -8,7 +8,19 @@ According to ChatGPT - Neovim is basically a modernized, supercharged text edito
 
 ## Installations
 
+- MacOS
+```
+brew install neovim
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.config/nvim/.git
+```
 
+
+
+
+## Configurations
+
+### Ctrl-s: keymap
 
 ```sh
 -- Save with Ctrl-s in any mode: enable save without bring back to normal mode
