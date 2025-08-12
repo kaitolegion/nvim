@@ -14,12 +14,20 @@ According to ChatGPT - Neovim is basically a modernized, supercharged text edito
 
 ```sh
 -- Save with Ctrl-s in any mode
+
+-- step 1: goto 
+nvim ~/.config/nvim/lua/config/keymaps.lua
+
+-- step 2: enter this code
 vim.keymap.set({ "n", "v" }, "<C-s>", "<cmd>w<CR>", { desc = "Save file" })
 vim.keymap.set("i", "<C-s>", "<C-o>:w<CR>", { desc = "Save file" })
+
+-- step 3: save and restart
+:source %
+
+
+
 ```
-
-
-
 
 
 ## Follow me
