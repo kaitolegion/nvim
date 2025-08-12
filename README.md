@@ -8,12 +8,10 @@ According to ChatGPT - Neovim is basically a modernized, supercharged text edito
 
 ## Installations
 
-### enable save without bring back to normal mode
-
 
 
 ```sh
--- Save with Ctrl-s in any mode
+-- Save with Ctrl-s in any mode: enable save without bring back to normal mode
 
 -- step 1: goto 
 nvim ~/.config/nvim/lua/config/keymaps.lua
