@@ -18,7 +18,7 @@ rm -rf ~/.config/nvim/.git
 ## Neovim Essential Commands
 A quick reference guide to essential Neovim commands for file management, navigation, editing, searching, and window management.
 
-- File management
+-- File management
 | Command        | Description              |
 |----------------|--------------------------|
 | `:e filename`  | Open a file              |
@@ -27,7 +27,7 @@ A quick reference guide to essential Neovim commands for file management, naviga
 | `:q`           | Quit                     |
 | `:wq`          | Save and quit            |
 | `:q!`          | Quit without saving      |
-| `:x`           | Save and quit (like `:wq`)|
+| `:x`           | Save and quit (like :wq) |
 | `:e .`         | Open file explorer       |
 
 ---
