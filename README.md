@@ -10,17 +10,23 @@ According to ChatGPT - Neovim is basically a modernized, supercharged text edito
 
 ### enable save without bring back to normal mode
 
+
+
+```sh
+```
 -- Save with Ctrl-s in any mode
 vim.keymap.set({ "n", "v" }, "<C-s>", "<cmd>w<CR>", { desc = "Save file" })
 vim.keymap.set("i", "<C-s>", "<C-o>:w<CR>", { desc = "Save file" })
+```
+```
 
 
 
-```
-```
-```
-```
-```
+
+
+
+
+
 
 ## Follow me
 - Facebook <fb.me/kaitocoding>
