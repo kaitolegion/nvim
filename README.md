@@ -30,7 +30,7 @@ A quick reference guide to essential Neovim commands for file management, naviga
 | `:x`           | Save and quit (like :wq) |
 | `:e .`         | Open file explorer       |
 
----
+
 -- navigation
 | Command      | Description                  |
 |--------------|------------------------------|
@@ -44,7 +44,7 @@ A quick reference guide to essential Neovim commands for file management, naviga
 | `Ctrl + d`   | Scroll half-page down        |
 | `Ctrl + u`   | Scroll half-page up          |
 
----
+
 -- editing
 | Command | Description          |
 |---------|----------------------|
@@ -60,7 +60,7 @@ A quick reference guide to essential Neovim commands for file management, naviga
 | `u`     | Undo                 |
 | `Ctrl + r` | Redo              |
 
----
+
 -- search & replace
 | Command            | Description                        |
 |--------------------|----------------------------------|
@@ -71,7 +71,7 @@ A quick reference guide to essential Neovim commands for file management, naviga
 | `:%s/old/new/g`    | Replace all `old` with `new`      |
 | `:s/old/new/g`     | Replace in current line            |
 
----
+
 -- Windows & splits
 | Command             | Description                      |
 |---------------------|--------------------------------|
