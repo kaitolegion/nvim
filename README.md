@@ -17,7 +17,6 @@ According to ChatGPT - Neovim is basically a modernized, supercharged text edito
 vim.keymap.set({ "n", "v" }, "<C-s>", "<cmd>w<CR>", { desc = "Save file" })
 vim.keymap.set("i", "<C-s>", "<C-o>:w<CR>", { desc = "Save file" })
 ```
-```
 
 
 
