@@ -35,11 +35,7 @@ vim.keymap.set("i", "<C-s>", "<C-o>:w<CR>", { desc = "Save file" })
 :source %
 -- step 4: restart
 :qall
-
-
-
 ```
-
 
 ## Follow me
 - Facebook <fb.me/kaitocoding>
